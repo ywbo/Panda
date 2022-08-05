@@ -1,5 +1,5 @@
 
-package org.ilearning.study;
+package org.ilearning.snowflake;
 
 import java.net.InetAddress;
 import java.net.NetworkInterface;
@@ -18,7 +18,7 @@ import java.util.concurrent.locks.LockSupport;
 /**
  * 雪花算法生成id
  *
- * @author yWX983890
+ * @author yuwenbo
  * @since 2022-03-30
  */
 public class SnowflakeId {

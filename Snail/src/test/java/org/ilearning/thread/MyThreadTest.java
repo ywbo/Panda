@@ -11,12 +11,16 @@ import java.util.concurrent.ThreadPoolExecutor;
 import org.junit.Test;
 
 /**
- * 创建线程方式：继承Thread类创建线程 测试
+ * 线程相关 单元测试
  *
- * @author yWX983890
+ * @author yuwenbo
  * @since 2022-08-04
  */
 public class MyThreadTest {
+
+    /**
+     * 使用继承Thread类创建 测试
+     */
     @Test
     public void test_ExtendsThread() {
         // 启动线程
@@ -29,6 +33,9 @@ public class MyThreadTest {
         t2.start();
     }
 
+    /**
+     * 实现Runnable接口创建线程 测试
+     */
     @Test
     public void test_RunnableThread() {
         // 创建线程
@@ -44,6 +51,9 @@ public class MyThreadTest {
 
     }
 
+    /**
+     * 实现Callable接口创建线程 测试
+     */
     @Test
     public void test_CallableThread() {
         CallableThread callableThread = new CallableThread();
@@ -61,6 +71,9 @@ public class MyThreadTest {
         }
     }
 
+    /**
+     * 实现Callable接口创建多线程 测试
+     */
     @Test
     public void test_CallableThreads() {
         FutureTask<Integer> futureTask = new FutureTask<Integer>(new CallableThreads());
@@ -82,6 +95,9 @@ public class MyThreadTest {
         System.out.println("Result = " + (a + b));
     }
 
+    /**
+     * 使用线程池创建线程 测试
+     */
     @Test
     public void test_ThreadPool() {
         // 1. 提供指定的线程数量的线程池
@@ -102,12 +118,18 @@ public class MyThreadTest {
         service.shutdown();
     }
 
+    /**
+     * 使用匿名类创建线程 测试
+     */
     @Test
     public void test_Anonymous() {
         AnonymousInnerClassThread thread = new AnonymousInnerClassThread();
         thread.Anonymous();
     }
 
+    /**
+     * 给定T1，T2，T3三个线程，测试使用join()方法,它们的执行顺序
+     */
     @Test
     public void test_OrderThread() {
         OrderThread threadA = new OrderThread();
@@ -121,6 +143,9 @@ public class MyThreadTest {
         new Thread(futureTask).start();
     }
 
+    /**
+     * 给定T1，T2，T3三个线程，测试使用信号量,它们的执行顺序
+     */
     @Test
     public void test_SemaphoreThread() {
         Semaphore semaphoreD = new Semaphore(1);

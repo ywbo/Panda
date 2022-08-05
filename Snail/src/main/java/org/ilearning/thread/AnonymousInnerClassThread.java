@@ -4,7 +4,7 @@ package org.ilearning.thread;
 /**
  * 创建线程方式：匿名内部类实现线程
  *
- * @author yWX983890
+ * @author yuwenbo
  * @since 2022-08-05
  */
 class AnonymousInnerClassThread {

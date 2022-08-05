@@ -22,7 +22,7 @@ import java.util.concurrent.TimeUnit;
  * </p>
  * 题目：将100以内的偶数求和
  *
- * @author yWX983890
+ * @author yuwenbo
  * @since 2022-08-04
  */
 class CallableThreads implements Callable<Integer> {

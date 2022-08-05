@@ -9,7 +9,7 @@ import java.util.concurrent.Semaphore;
  * </p>
  * 利用信号量来实现给定三个线程 T1, T2, T3，保证三个线程按顺序执行
  *
- * @author yWX983890
+ * @author yuwenbo
  * @since 2022-08-05
  */
 class SemaphoreThread extends Thread {

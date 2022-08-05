@@ -11,7 +11,7 @@ package org.ilearning.thread;
  * </p>
  * 题目：遍历100以内的所有偶数
  *
- * @author yWX983890
+ * @author yuwenbo
  * @since 2022-08-04
  */
 public class ExtendsThread extends Thread {

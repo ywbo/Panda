@@ -6,7 +6,7 @@ package org.ilearning.thread;
  * </p>
  * 问题：给定三个线程 T1, T2, T3，怎么保证三个线程按顺序执行？
  *
- * @author yWX983890
+ * @author yuwenbo
  * @since 2022-08-05
  */
 

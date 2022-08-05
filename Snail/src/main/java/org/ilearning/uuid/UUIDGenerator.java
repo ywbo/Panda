@@ -1,11 +1,11 @@
-package org.ilearning.UUIDGenerator;
+package org.ilearning.uuid;
 
 import java.util.UUID;
 
 /**
  * 功能描述：UUID生成器
  *
- * @author yWX983890
+ * @author yuwenbo
  * @since 2022-01-28
  */
 public class UUIDGenerator {

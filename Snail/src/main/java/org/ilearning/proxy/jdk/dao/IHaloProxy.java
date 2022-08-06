@@ -1,4 +1,4 @@
-package org.ilearning.proxy.dao;
+package org.ilearning.proxy.jdk.dao;
 
 /**
  * 代理接口类

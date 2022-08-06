@@ -1,6 +1,6 @@
-package org.ilearning.proxy.statical;
+package org.ilearning.proxy.jdk.statical;
 
-import org.ilearning.proxy.dao.IHaloProxy;
+import org.ilearning.proxy.jdk.dao.IHaloProxy;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

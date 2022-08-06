@@ -1,4 +1,4 @@
-package org.ilearning.proxy.dynamic;
+package org.ilearning.proxy.jdk.dynamic;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

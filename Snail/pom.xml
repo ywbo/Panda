@@ -19,6 +19,7 @@
         <slf4j.version>1.7.5</slf4j.version>
         <fastjson.version>1.2.83</fastjson.version>
         <mybatis.springboot.version>2.2.2</mybatis.springboot.version>
+        <jmockit.version>1.30</jmockit.version>
     </properties>
     <dependencies>
         <!-- springboot-aop -->
@@ -48,6 +49,12 @@
             <groupId>org.mybatis.spring.boot</groupId>
             <artifactId>mybatis-spring-boot-starter</artifactId>
             <version>${mybatis.springboot.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.jmockit</groupId>
+            <artifactId>jmockit</artifactId>
+            <version>${jmockit.version}</version>
+            <scope>test</scope>
         </dependency>
         <!-- JUnit5 -->
         <dependency>

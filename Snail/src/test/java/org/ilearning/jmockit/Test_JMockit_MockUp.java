@@ -3,6 +3,7 @@ package org.ilearning.jmockit;
 import mockit.Invocation;
 import mockit.Mock;
 import mockit.MockUp;
+import org.ilearning.mock.jmockit.Calculator;
 import org.junit.Test;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

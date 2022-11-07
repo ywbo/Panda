@@ -1,5 +1,5 @@
 
-package org.ilearning.mock.powermock.service;
+package org.ilearning.mock.powermock;
 
 import org.ilearning.mock.powermock.dao.OrderDao;
 

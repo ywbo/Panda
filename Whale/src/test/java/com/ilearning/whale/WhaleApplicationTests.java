@@ -1,10 +1,10 @@
-package com.ilearning.shark;
+package com.ilearning.whale;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class SharkApplicationTests {
+class WhaleApplicationTests {
 
     @Test
     void contextLoads() {
